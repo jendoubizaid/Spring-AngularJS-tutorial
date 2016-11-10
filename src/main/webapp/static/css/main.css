@@ -1,0 +1,380 @@
+ html { height: 100%; }
+ body {
+      font: 20px Montserrat;
+      line-height: 1.8;
+      background-size: contain;
+      color: #000000;
+     background-color:#FAF0E6;
+      width: 100%;
+      height: auto; 
+  }
+
+.header_pic 
+  {
+    height:70px;
+     width:70px;
+  }
+    .glyphicon-log-in 
+    {
+    font-size: 4em;
+
+    }
+.glyphicon-log-out ,.glyphicon-log-in
+{
+    font-size: 3em;
+}
+#cart {
+  margin-top: 20px;
+}
+  #client_name , #total_items , .glyphicon-log-in ,.glyphicon-log-out{
+  color: white;
+ }
+ 
+ #logout_btn:hover
+ {
+  color:red;
+  content: "logout";
+ }
+
+ #header_nav{
+  margin-bottom:0;
+ }
+    /* ******************header navbar ************************/
+
+
+ .navbar-custom {
+        
+        background-color:#4DB6AC;
+        color:#ffffff;
+        border-radius:0;
+        margin-bottom: 0;
+        border: none;
+    }
+    .navbar-nav
+    {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+    }
+
+    .navbar-custom .navbar-nav > li > a {
+        color:#fff;
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+        color: #ffffff;
+        background-color:transparent;
+    }
+
+    .navbar-custom .navbar-nav > li > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        background-color: #007faa;
+    }
+
+    /** Custom Hover Colors **/
+
+    .navbar-custom .navbar-nav > li.external > a:hover, .nav > li > a:focus {
+        text-decoration: none;
+        background-color:  #f44336
+        color:#B2DFDB;
+        transition: background .15s ease-in-out;
+       -moz-transition: background .15s ease-in-out;
+       -webkit-transition: background .15s ease-in-out;
+    }
+    
+
+    .navbar-custom .navbar-nav > li.external-active > a {
+        color:black;
+        background: #fe9d01;
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .navbar-custom .navbar-toggle {
+        background-color:#eeeeee;
+    }
+
+    .navbar-custom .icon-bar {
+        background-color:#007faa;
+    }
+
+    .navbar-nav ,#main_container h2 , h6{
+        font: 400 1.3em 'Oswald', 'Arial Narrow', Arial, sans-serif;    
+        text-transform: uppercase;
+
+    }
+    #main_container h2::before
+    {
+ content: url('Book-Circle-Icon.png');
+    }
+
+
+     /* ****************end navbar  header ******************  */
+
+    /* ********************main container ********************* */
+ 
+
+    
+  #main_container
+  {
+background-color:#ffffff;
+margin: 0 auto;
+width: 75%;
+height: 100%;
+  }
+  /*==============books table=============*/
+
+   a div img{
+     margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    width: 120px;
+
+   }
+
+   .book-alignment{
+   margin-left:auto;
+   margin-right: auto;
+   margin-bottom:2%; 
+   }
+   .btn-margin{
+   	margin-top:2%;
+   }
+   .blue_btn:link, .blue_btn:visited 
+{
+    background-color: #0277BD;
+    color: white;
+    padding: 9px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+ .blue_btn:hover, .blue_btn:active
+
+{
+   background-color: #01579B;
+}
+   .col-sm-4 a button{
+
+    margin-top:20px;
+   }
+ 
+    .circle_grey{ 
+                width:200px;
+                height: 200px;
+                padding:10px 11px;
+                border-radius:200px;
+                /*background-color: #FAF0E6;*/
+                background-image: url(book_bg1.jpg);
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+       
+
+
+  /*===================================*/
+
+
+
+  .img-responsive.img-circle.margin,.img-responsive{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width:200px;
+    height:200px;
+  }
+
+  #container-fluid{
+    
+    margin-right: auto;
+    margin-left: auto;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  
+    
+  footer { 
+      background: #4DB6AC;
+      color: #fff;
+      margin-right: auto;
+      margin-left:auto;
+      font-size: 20px;
+      size:30px ;
+      text-align:center; 
+      bottom:0;
+      width:100%
+  }
+  .bg-4 a span
+  {
+    height:20px ;
+    width:20px;
+  }
+  .container-fluid {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+b{
+	color: #00cccc;
+}
+.white_text{
+	color:#ffffff;
+}    
+.book img
+
+{
+  width:70px;
+  height:100px;
+}
+.book:hover{
+	width:150px;
+	height:185px;
+}
+.book
+{
+display: table-cell;
+text-align: center;
+ 
+}
+
+/*=========================page book description ==============*/
+
+
+#prix_livre_box{
+  text-align: center;
+   border-radius: 10px;
+   width: 150px;
+  height: 50px;
+
+}
+#desc_book
+{
+   font:  'Oswald', 'Arial Narrow', Arial, sans-serif;
+}
+
+#titre_livre
+{
+  color: grey;
+}
+
+#nom_auteur,#description,#ISBN
+{
+  color:#757575;
+}
+#editeur,h2
+
+{color:grey;}
+
+#prix
+{
+  color: #f44336;
+  text-align: center;
+   font: 400 3em 'Oswald', 'Arial Narrow', Arial, sans-serif;  
+   font-style: bold;
+}
+
+
+/*===========================connexion client =================================*/
+
+#client_cnx_box 
+{
+  margin: 0 auto
+  width:50%;
+   font: 400 1em 'Oswald', 'Arial Narrow', Arial, sans-serif;    
+}
+.client_con
+{
+  border-radius: 25px;
+  background-color;
+  height: 300px;
+
+  
+
+}
+.client_icon
+{
+     margin-left: 0 auto;
+     margin-right: 0 auto;
+
+}
+.client_con h4 , .client_con form , .client_con #sign_up_box
+{
+  color: grey;
+  text-align:center ;
+}
+
+
+
+/*===============================login form===========================================*/
+
+
+form p input 
+{
+  
+  border-radius: 20px;
+}
+
+/*=================================sign up form =====================================*/
+#sign_up_form
+{
+  margin: 0 auto
+  width:50%;
+  border-radius: 25px;
+  border-color: grey;
+   background-color:white;
+  height: 100%;
+  color: grey;
+
+}
+/*====================================checkout box================================================*/
+input[type="number"] {
+   width:60px;
+}
+
+
+.row hr ,#main_container hr{
+        height : 0.5em;
+       background : url(book_bg4.jpeg);
+       margin-bottom: 1em 0;
+       margin-top: 0;
+       width: 97%;
+       }
+
+       .table-responsive
+       {
+        width:85%;
+        margin-right: 20%;
+    
+       }
+th,.checkout_box h3
+{
+     font: 400 1em 'Oswald', 'Arial Narrow', Arial, sans-serif;    
+        text-transform: uppercase;
+       font-weight: bold; 
+     }
+       
+tr
+{
+   font: 400 1em 'Oswald', 'Arial Narrow', Arial, sans-serif; 
+}
+.glyphicon-remove
+{
+  color:#f44336;
+  font-size:2em;
+}
+
+
+section
+{
+  height:300px;
+  text-align: center;
+  
+}
+section > h3,section >img
+{
+  margin-right: auto;
+  margin-left: auto;
+}
